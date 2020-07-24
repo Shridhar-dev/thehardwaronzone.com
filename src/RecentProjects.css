@@ -1,0 +1,9 @@
+.zoom{
+    overflow:hidden;
+}
+.card-img-top:hover{
+    transform: scale(1.5);
+}
+.card-img-top{
+    transition: transform .8s;
+}
