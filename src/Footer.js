@@ -1,5 +1,4 @@
 import React from 'react';
-import headImg from './Images/headImg.png';
 import './Footer.css';
 
 class Footer extends React.Component{
