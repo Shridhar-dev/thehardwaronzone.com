@@ -8,6 +8,8 @@ import lj from './Images/Lj (2).png';
 import demo from './Images/demo.png';
 import cat from './Images/catopedia.PNG';
 import iot from './Images/IoT.png';
+import todo from './Images/todoimg.PNG'
+import discreet from './Images/DISCREET.png'
 import './Projects.css';
 
 class Projects extends React.Component{
@@ -37,6 +39,12 @@ class Projects extends React.Component{
                 <div class="display-4 pb-5">Projects</div>
             <div class="row justify-content-center align-items-center pb-5">
             <div class="col-12 col-sm-12 col-md-6 col-xl-4 py-3">
+                            <Cards img={discreet} title="Discreet" text="A messenger look alike" link="https://discreet-b6d33.web.app/"/> 
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4 py-3">
+                            <Cards img={todo} title="Todo app" text="A todo app powered by firebase" link="https://todo-5b16d.web.app/"/> 
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4 py-3">
                             <Cards img={gnh} title="Goan News Hub" text="A site showcasing people with varied talents in Goa" link="https://gnhunofficial.netlify.app/"/>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-xl-4 py-3">
@@ -51,7 +59,7 @@ class Projects extends React.Component{
                         <div class="col-12 col-sm-12 col-md-6 col-xl-4 py-3">
                             <Cards img={iot} title="Iot Lamp" text="A simple IoT Lamp with Google Assistant" link="https://medium.com/@shridharkamat10/how-to-make-an-cool-iot-lamp-that-can-be-controlled-through-google-assistant-37ba61b6fdb2"/> 
                         </div>
-                       
+                        
                     </div>
             
             </div>

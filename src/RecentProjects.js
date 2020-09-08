@@ -6,6 +6,8 @@ import demo from './Images/demo.png';
 import gnh from './Images/GNH.PNG';
 import Ribbon from './Images/Recent Projects.png';
 import Cards from './Cards';
+import todo from './Images/todoimg.PNG'
+import discreet from './Images/DISCREET.png'
 import './RecentProjects.css';
 
 class RecentProjects extends React.Component{
@@ -24,13 +26,13 @@ class RecentProjects extends React.Component{
                     </div>
                     <div class="row justify-content-center align-items-center">
                         <div class="col-12 col-sm-12 col-md-6 col-xl-4">
-                            <Cards img={gnh} title="Goan News Hub" text="People with varied talents in Goa" link="https://gnhunofficial.netlify.app/"/>
+                            <Cards img={discreet} title="Discreet" text="A messenger look alike" link="https://discreet-b6d33.web.app/"/>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-xl-4">
-                            <Cards img={lj} title="Llama Jokes" text="A joke generator" link="https://llamajokes.netlify.app/"/> 
+                            <Cards img={todo} title="Todo app" text="A todo app powered by firebase" link="https://todo-5b16d.web.app/"/> 
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-xl-4">
-                            <Cards img={demo} title="THZ" text="Just a demo trial website" link="https://thz.netlify.app/"/> 
+                            <Cards img={gnh} title="Goan News Hub" text="People with varied talents in Goa" link="https://gnhunofficial.netlify.app/"/> 
                         </div>
                     </div>
                  </div>
