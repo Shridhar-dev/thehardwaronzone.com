@@ -8,6 +8,7 @@ import Ribbon from './Images/Recent Projects.png';
 import Cards from './Cards';
 import todo from './Images/todoimg.PNG'
 import discreet from './Images/DISCREET.png'
+import twitter from './Images/twitter.png'
 import './RecentProjects.css';
 
 class RecentProjects extends React.Component{
@@ -25,6 +26,9 @@ class RecentProjects extends React.Component{
                         <img src={Ribbon} class="img-fluid" height="500px" width="800" />     
                     </div>
                     <div class="row justify-content-center align-items-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                            <Cards img={discreet} title="Discreet" text="A messenger look alike" link="https://discreet-b6d33.web.app/"/>
+                        </div>
                         <div class="col-12 col-sm-12 col-md-6 col-xl-4">
                             <Cards img={discreet} title="Discreet" text="A messenger look alike" link="https://discreet-b6d33.web.app/"/>
                         </div>
