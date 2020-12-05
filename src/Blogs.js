@@ -11,6 +11,7 @@ import IoT from './Images/iiot.png';
 import ifttt from './Images/ifttt.jpg';
 import tfi from './Images/textfromimg.jpg';
 import bfi from './Images/bfi.jpg';
+import cig from './Images/CAT IMAGE GENERATOR.png';
 import './Projects.css';
 
 class Blogs extends React.Component{
@@ -38,7 +39,10 @@ class Blogs extends React.Component{
                 </div>
                 </div> 
                 <div class="display-4 pb-5">Blogs</div>
-            <div class="row justify-content-center align-items-center pb-5">
+                    <div class="row justify-content-center align-items-center pb-5">
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4 py-3">
+                            <Cards img={cig} title="A random cat image generator with React" text="Making a random cat image generator with React and Cat API" link="https://medium.com/@shridharkamat10/how-to-make-a-random-cat-image-generator-with-react-and-cat-api-c52a093d8b42"/> 
+                        </div>
                         <div class="col-12 col-sm-12 col-md-6 col-xl-4 py-3">
                             <Cards img={bfi} title="Removing background from images" text="A simple way for removing background from images" link="https://medium.com/@shridharkamat10/how-to-remove-background-from-images-no-photoshop-easiest-method-253bff1bd6eb"/> 
                         </div>
