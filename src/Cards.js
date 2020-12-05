@@ -17,7 +17,7 @@ const styles={
                     <div class="card-text pb-2">
                         {props.text}
                     </div>
-                    <a href={props.link} class=" mt-2 btn btn-primary">Go!</a>
+                    <a href={props.link} class=" mt-2 btn btn-primary" target="_blank">Go!</a>
                 </div>
                 </div>  
                 </>

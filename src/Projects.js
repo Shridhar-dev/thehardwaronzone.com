@@ -11,6 +11,8 @@ import iot from './Images/IoT.png';
 import todo from './Images/todoimg.PNG'
 import discreet from './Images/DISCREET.png'
 import twitter from './Images/twitter.png'
+import discord from './Images/Discord.png'
+
 
 import './Projects.css';
 
@@ -40,6 +42,9 @@ class Projects extends React.Component{
                 </div> 
                 <div class="display-4 pb-5">Projects</div>
             <div class="row justify-content-center align-items-center pb-5">
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                            <Cards img={discord} title="Discord UI Clone" text="Discord UI Clone" link="https://disord-clone.netlify.app/"/>
+                        </div>
             <div class="col-12 col-sm-12 col-md-6 col-xl-4">
                             <Cards img={twitter} title="Twitter Clone" text="Twitter Clone" link="https://twitter-clone-af477.web.app/"/>
                         </div>

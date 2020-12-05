@@ -14,8 +14,8 @@ class Header extends React.Component{
             <>
             <div class="header-main container-fluid">
                 <div class="py-5">
-                <div class='row justify-content-center align-items-center py-3 py-sm-3 py-md-0 py-xl-5'>
-                    <div class="col-12 col-sm-12 col-md-6 col-xl-6 py-0">
+                <div class='row p-0 justify-content-center align-items-center py-3 py-sm-3 py-md-0 py-xl-5'>
+                    <div class=" m-0 col-12 col-sm-12 col-md-6 col-xl-6 py-0">
                         <div class="display-1 head-text"><strong>Tech</strong></div><div class="display-1 head-text-sub">an evergrowing trend</div>
                         <hr class="mx-5"/>
                         <div class="display-6 head-text-small">The thing the modern world is dependent upon</div>
