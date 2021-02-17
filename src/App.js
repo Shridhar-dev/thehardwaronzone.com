@@ -6,7 +6,7 @@ import Projects from './Projects.js';
 import Blogs from './Blogs.js';
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{position:'relative'}}>
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/projects' component={Projects} />

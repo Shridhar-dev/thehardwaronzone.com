@@ -12,7 +12,11 @@ import todo from './Images/todoimg.PNG'
 import discreet from './Images/DISCREET.png'
 import twitter from './Images/twitter.png'
 import discord from './Images/Discord.png'
-
+import weather from './Images/WeatherMaps.png'
+import git from './Images/gitlogo.png'
+import setu from './Images/AarogyaSetu.PNG'
+import react_logo from './Images/reactLogo.png'
+import gossip from './Images/gossip.png'
 
 import './Projects.css';
 
@@ -41,14 +45,29 @@ class Projects extends React.Component{
                 </div>
                 </div> 
                 <div class="display-4 pb-5">Projects</div>
-            <div class="row justify-content-center align-items-center pb-5">
-            <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                    <div class="row justify-content-center align-items-start pb-5">
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                            <Cards img={gossip} title="Gossip" text="A simple chat app built with React and Firebase" link="https://gossip-5c9ef.web.app/"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                            <Cards img={react_logo} title="React Logo" text="React Logo made in Pure CSS" link="https://codepen.io/shridhar-dev/pen/PoGQwgx"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                            <Cards img={setu} title="Aarogya Setu Logo" text="Aarogya Setu Logo made in Pure CSS" link="https://codepen.io/shridhar-dev/pen/RwGxJNq"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                            <Cards img={git} title="Git Logo" text="Git Logo made in Pure CSS" link="https://codepen.io/shridhar-dev/pen/zYKPVyY"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
                             <Cards img={discord} title="Discord UI Clone" text="Discord UI Clone" link="https://disord-clone.netlify.app/"/>
                         </div>
-            <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                            <Cards img={weather} title="Weather Maps" text="Get the weather of any part of the world using google maps" link="https://weathermaps.netlify.app/"/>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
                             <Cards img={twitter} title="Twitter Clone" text="Twitter Clone" link="https://twitter-clone-af477.web.app/"/>
                         </div>
-            <div class="col-12 col-sm-12 col-md-6 col-xl-4 py-3">
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4 py-3">
                             <Cards img={discreet} title="Discreet" text="A messenger look alike" link="https://discreet-b6d33.web.app/"/> 
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-xl-4 py-3">
@@ -68,10 +87,8 @@ class Projects extends React.Component{
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-xl-4 py-3">
                             <Cards img={iot} title="Iot Lamp" text="A simple IoT Lamp with Google Assistant" link="https://medium.com/@shridharkamat10/how-to-make-an-cool-iot-lamp-that-can-be-controlled-through-google-assistant-37ba61b6fdb2"/> 
-                        </div>
-                        
+                        </div> 
                     </div>
-            
             </div>
             <Footer/>
          </>
